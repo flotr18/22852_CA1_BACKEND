@@ -25,7 +25,7 @@ nodemon index
 
 ```
 
-## Requirements
+## :briefcase: Requirements
 
 - Use Postman online version : 
 
@@ -45,11 +45,11 @@ OR
 
 
 
-## Perform CRUD REQUESTS
+## :email: Perform CRUD REQUESTS
 
-:warning: :  To have access to your POSTMAN's workspace !! you must be registered with your postman account in order to make requests 
+:warning: To have access to your POSTMAN's workspace !! you must be registered with your postman account in order to make requests 
 
-###DATABASE INFORMATIONS
+### DATABASE INFORMATIONS
 
 - Database : MongoDB
 - Name : Users
@@ -74,12 +74,12 @@ users.infos {
 The POST method requests that the server accept the entity enclosed in the request as a new subordinate of the web resource identified by the URI.
 To make the post request : 
 
-- CONNECT to your Postman's workspace
-- WRITE inside the input http://localhost:3000/user
-- SELECT POST Option from the scrolling menu
-- On Body's section, CHOOSE x-www-form-encoded
-- Then, ENTER name,familyname,age,real and their values
-- CLICK on send button
+- **CONNECT** to your Postman's workspace
+- **WRITE** inside the input http://localhost:3000/user
+- **SELECT** POST Option from the scrolling menu
+- On Body's section, **CHOOSE** x-www-form-encoded
+- Then, **ENTER** name,familyname,age,real and their values
+- **CLICK** on send button
 
 If successful, the console should return :
 
@@ -100,10 +100,10 @@ The GET method requests a representation of the specified resource. Requests usi
 
 To make the GET Request : 
 
-- CONNECT to your Postman's workspace
-- WRITE inside the input http://localhost:3000/user
-- SELECT GET Option from the scrolling menu
-- CLICK on send button
+- **CONNECT** to your Postman's workspace
+- **WRITE** inside the input http://localhost:3000/user
+- **SELECT** GET Option from the scrolling menu
+- **CLICK** on send button
 
 If successful, the console should return :
 
@@ -125,13 +125,13 @@ The PUT method requests that the enclosed entity be stored under the supplied UR
 
 To make the PUT Request :
 
-- CONNECT to your Postman's workspace
-- WRITE inside the input http://localhost:3000/user
-- SELECT PUT Option from the scrolling menu
-- On Body's section, CHOOSE x-www-form-encoded
-- RETRIEVE the ID of the document that you want to update
-- Then, ENTER name,familyname,age,real and their new values
-- CLICK on send button
+- **CONNECT** to your Postman's workspace
+- **WRITE** inside the input http://localhost:3000/user
+- **SELECT** PUT Option from the scrolling menu
+- On Body's section, **CHOOSE** x-www-form-encoded
+- **RETRIEVE** the ID of the document that you want to update
+- Then, **ENTER** name,familyname,age,real and their new values
+- **CLICK** on send button
 
 If successful, the console should return :
 
@@ -154,11 +154,11 @@ The DELETE method deletes the specified resource.
 
 To make the DELETE Request : 
 
-- CONNECT to your Postman's workspace
-- WRITE inside the input http://localhost:3000/user
-- SELECT DELETE Option from the scrolling menu
-- RETRIEVE the ID of the document that you want to update
-- CLICK on send button
+- **CONNECT** to your Postman's workspace
+- **WRITE** inside the input http://localhost:3000/user
+- **SELECT** DELETE Option from the scrolling menu
+- **RETRIEVE** the ID of the document that you want to update
+- **CLICK** on send button
 
 If successful, the console should return :
 
