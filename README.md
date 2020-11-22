@@ -1,6 +1,6 @@
 # 22852_CA1_BACK-END-DORSET
 
-## About the Project
+## About
 
 CA1 Project 22852
 
@@ -47,7 +47,7 @@ OR
 
 ## Perform CRUD REQUESTS
 
-Warning :  To have access to your POSTMAN's workspace !! you must be registered with your postman account in order to make requests 
+:warning: :  To have access to your POSTMAN's workspace !! you must be registered with your postman account in order to make requests 
 
 ###DATABASE INFORMATIONS
 
