@@ -83,7 +83,7 @@ app.get('/user', (req, res) => {
 app.post('/user', (req, res) =>{
     try {
         console.log('POST Request on user route OK !');
-        let user = new User(req.body.name.toString(), req.body.familyname.toString(), parseInt(req.body.age), (/true/i).test(req.body.real))
+        let user = new User(req.body.name, req.body.familyname, parseInt(req.body.age), (/true/i).test(req.body.real))
         // Create a new User to insert in the database
         userDb.insertOne(user) // insertOne is a mongoDB's method used to insert a document to the database
         res.sendStatus(200);
